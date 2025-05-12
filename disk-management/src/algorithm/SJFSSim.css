@@ -1,0 +1,177 @@
+/** SJFS Simulation Page - Modern Card Layout **/
+
+.sim-page-bg {
+    min-height: 100vh;
+    background: #e9edfb;
+    padding: 40px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sjfs-info-card, .sjfs-config-card {
+    background: #fff;
+    color: #1f2a4b;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(47, 75, 191, 0.12);
+    max-width: 1100px;
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 32px 36px 28px 36px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sjfs-info-card h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #1f2a4b;
+}
+
+.sjfs-info-card p {
+    color: #1f2a4b;
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+}
+
+.sjfs-info-card hr {
+    border: none;
+    border-top: 1px solid #e0e6f7;
+    margin: 18px 0 16px 0;
+}
+
+.sjfs-info-card em {
+    color: #3b5bdb;
+    font-size: 1.05rem;
+}
+
+.sjfs-type-tag {
+    display: inline-block;
+    background: #d6e9f8;
+    color: #2970b5;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 18px;
+    margin-top: 10px;
+}
+
+.sjfs-config-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1f2a4b;
+    margin-bottom: 18px;
+}
+
+.sjfs-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.sjfs-form label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #2970b5;
+}
+
+.sjfs-form input {
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: 1.5px solid #e0e6f7;
+    background-color: #f8faff;
+    color: #1f2a4b;
+    font-size: 1rem;
+}
+
+.sjfs-form button {
+    background: #2970b5;
+    color: #fff;
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.sjfs-form button:hover {
+    background: #1a4a7e;
+    transform: scale(1.05);
+}
+
+.sjfs-output-card {
+    background: #f8faff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(47, 75, 191, 0.08);
+    padding: 24px 20px 16px 20px;
+    width: 100%;
+    margin: 32px 0 0 0;
+    box-sizing: border-box;
+}
+
+.sjfs-output-card h3 {
+    color: #1f2a4b;
+    margin-bottom: 1rem;
+}
+
+.sjfs-output-card p {
+    color: #1f2a4b;
+    font-size: 1.08rem;
+}
+
+.charts {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.chart {
+    background-color: #f8faff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(100, 120, 255, 0.10);
+}
+
+.chart h4 {
+    color: #2970b5;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .sjfs-info-card, .sjfs-config-card, .sjfs-output-card {
+        max-width: 98vw;
+        padding: 24px 8vw 18px 8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .sjfs-info-card, .sjfs-config-card, .sjfs-output-card {
+        max-width: 100vw;
+        padding: 16px 2vw 12px 2vw;
+    }
+}
+
+.sjfs-random-btn {
+    background: #2970b5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px 0 rgba(47, 75, 191, 0.10);
+}
+
+.sjfs-random-btn:hover {
+    background: #1a4a7e;
+    transform: translateY(-2px) scale(1.04);
+}

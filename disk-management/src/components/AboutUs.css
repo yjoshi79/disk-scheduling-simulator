@@ -1,0 +1,30 @@
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle, #1e1f2f, #2a2d43);
+  color: #f1f1f1;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-container {
+  flex: 1;
+  padding: 2rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  background-color: #1e1f2f;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.about-container h1 {
+  color: #00dfd8;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #a9adc1;
+} 

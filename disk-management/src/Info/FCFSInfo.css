@@ -1,0 +1,60 @@
+.fcfs-info-container {
+    background-color: #1e1f2f;
+    color: #f1f1f1;
+    padding: 2rem;
+    max-width: 960px;
+    margin: 2rem auto;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .fcfs-info-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00d4ff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .fcfs-info-content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .fcfs-info-content h3 {
+    font-size: 1.6rem;
+    color: #00dfd8;
+    margin-top: 1.5rem;
+  }
+  
+  .fcfs-info-content ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .fcfs-info-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .example-box {
+    background-color: #2a2d43;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .visualization-box {
+    background-color: #2a2d43;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .visualization-box h4 {
+    font-size: 1.4rem;
+    color: #00d4ff;
+  }
+  
