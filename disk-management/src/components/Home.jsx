@@ -11,9 +11,9 @@ const features = [
     desc: 'Watch how processes move through the disk in real-time with animated visualizations.'
   },
   {
-    icon: 'R',
-    title: 'Ready Queue View',
-    desc: 'See the real-time state of the request queue as requests are scheduled.'
+    icon: 'C',
+    title: 'Custom Seek Positions',
+    desc: 'Create your own disk request patterns or generate random ones to test algorithm performance.'
   },
   {
     icon: 'M',

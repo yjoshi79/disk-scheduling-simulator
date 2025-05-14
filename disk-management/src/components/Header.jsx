@@ -16,6 +16,7 @@ const Header = () => {
       </div>
       <div className="header-right">
         <Link to="/" className="header-link">Home</Link>
+        <Link to="/disk-visualization" className="header-link">Visualizer</Link>
         <button onClick={handleAlgorithmsClick} className="header-link">Algorithms</button>
       </div>
     </header>

@@ -97,4 +97,44 @@ hr {
 .algo-weaknesses li {
   color: #d13a3a;
   margin-bottom: 2px;
+}
+
+/* Add these new styles for the visualization button */
+.algorithms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.visualization-link-btn {
+  background: linear-gradient(45deg, #3b5bdb, #5c7cfa);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(92, 124, 250, 0.4);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visualization-link-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(92, 124, 250, 0.5);
+}
+
+@media (max-width: 768px) {
+  .algorithms-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .visualization-link-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 } 

@@ -1,4 +1,4 @@
-/** FCFS Simulation Page - Modern Card Layout **/
+/** FCFS Simulation Page - Simplified Layout **/
 
 .sim-page-bg {
   min-height: 100vh;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.fcfs-info-card, .fcfs-config-card {
+.fcfs-info-card, .graphical-demo-container {
   background: #fff;
   color: #1f2a4b;
   border-radius: 16px;
@@ -22,11 +22,12 @@
   transition: box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 
-.fcfs-info-card h2 {
+.fcfs-info-card h2, .graphical-demo-container h2 {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   color: #1f2a4b;
+  text-align: center;
 }
 
 .fcfs-info-card p {
@@ -57,107 +58,21 @@
   margin-top: 10px;
 }
 
-.fcfs-config-card h3 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #1f2a4b;
-  margin-bottom: 18px;
-}
-
-.fcfs-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  width: 100%;
-}
-
-.fcfs-form label {
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-  color: #3b5bdb;
-}
-
-.fcfs-form input {
-  padding: 0.7rem;
-  border-radius: 10px;
-  border: 1.5px solid #e0e6f7;
-  background-color: #f8faff;
-  color: #1f2a4b;
-  font-size: 1rem;
-  box-shadow: none;
-}
-
-.fcfs-form button {
-  background: #3b5bdb;
-  color: #fff;
-  padding: 0.9rem 2rem;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: 0.3s;
-  font-weight: 600;
-  align-self: flex-start;
-}
-
-.fcfs-form button:hover {
-  background: #25316d;
-  transform: scale(1.05);
-}
-
-.fcfs-output-card {
-  background: #f8faff;
-  border-radius: 14px;
-  box-shadow: 0 2px 8px rgba(47, 75, 191, 0.08);
-  padding: 24px 20px 16px 20px;
-  width: 100%;
-  margin: 32px 0 0 0;
-  box-sizing: border-box;
-}
-
-.fcfs-output-card h3 {
-  color: #1f2a4b;
-  margin-bottom: 1rem;
-}
-
-.fcfs-output-card p {
-  color: #1f2a4b;
-  font-size: 1.08rem;
-}
-
-.charts {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.chart {
-  background-color: #f8faff;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(100, 120, 255, 0.10);
-}
-
-.chart h4 {
-  color: #3b5bdb;
-  margin-bottom: 1rem;
+.graphical-demo-container {
+  padding: 32px 20px 40px 20px;
 }
 
 @media (max-width: 1000px) {
-  .fcfs-info-card, .fcfs-config-card, .fcfs-output-card {
+  .fcfs-info-card, .graphical-demo-container {
     max-width: 98vw;
     padding: 24px 8vw 18px 8vw;
   }
 }
 
 @media (max-width: 600px) {
-  .fcfs-info-card, .fcfs-config-card, .fcfs-output-card {
+  .fcfs-info-card, .graphical-demo-container {
     max-width: 100vw;
     padding: 16px 2vw 12px 2vw;
-  }
-  .fcfs-form {
-    grid-template-columns: 1fr;
   }
 }
 
